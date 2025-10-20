@@ -1,0 +1,53 @@
+no change     /mnt/shared/easybuild/software/Anaconda3/2024.06-1/condabin/conda
+no change     /mnt/shared/easybuild/software/Anaconda3/2024.06-1/bin/conda
+no change     /mnt/shared/easybuild/software/Anaconda3/2024.06-1/bin/conda-env
+no change     /mnt/shared/easybuild/software/Anaconda3/2024.06-1/bin/activate
+no change     /mnt/shared/easybuild/software/Anaconda3/2024.06-1/bin/deactivate
+no change     /mnt/shared/easybuild/software/Anaconda3/2024.06-1/etc/profile.d/conda.sh
+no change     /mnt/shared/easybuild/software/Anaconda3/2024.06-1/etc/fish/conf.d/conda.fish
+no change     /mnt/shared/easybuild/software/Anaconda3/2024.06-1/shell/condabin/Conda.psm1
+no change     /mnt/shared/easybuild/software/Anaconda3/2024.06-1/shell/condabin/conda-hook.ps1
+no change     /mnt/shared/easybuild/software/Anaconda3/2024.06-1/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /mnt/shared/easybuild/software/Anaconda3/2024.06-1/etc/profile.d/conda.csh
+no change     /its/home/aa2439/.bashrc
+No action taken.
+
+CondaError: Run 'conda init' before 'conda activate'
+
+/its/home/aa2439/.conda/envs/evfit_env/lib/python3.12/site-packages/kcorrect/template.py:241: RuntimeWarning: underflow encountered in divide
+  self.flux = self.restframe_flux / (1. + redshift)
+
+************************
+jswml.py version  2.0
+Using Blanton kcorrections
+survey :  GAMAIII
+ref_mlims :  (0, 19.65)
+band_mlims :  (0, 19.65)
+redshift range : [ 0.002 ;  0.65 ]
+area : 230.6
+method :  post
+Kcorrect responses :  ['galex_FUV', 'galex_NUV', 'vst_u', 'vst_g', 'vst_r', 'vst_i', 'vista_z', 'vista_y', 'vista_j', 'vista_h', 'vista_k', 'wise_w1', 'wise_w2']
+Error type :  jackknife
+Jackknife regions :  (129, 133, 137, 174, 178, 182, 211.5, 215.5, 219.5, 339, 343, 347)
+{}
+H0, omega_l, z0, area/Sr =  100 0.7 0.1 0.070244777002815
+169194 galaxies selected
+No column r_sb; ignoring SB completeness
+No column fibermag_r; ignoring redshift completeness
+Setting LF bin limits Qmin, Qmax =  0.0 1.5
+LF bins with more than 10 gals :  [   11    65   323  1093  2836  5551  8872 12424 14899 16473 16140 15022
+ 13630 11778 10055  8463  6747  5462  4216  3429  2637  2028  1626  1252
+   997   727   572   467   311   235   191   154   118   113    78    55
+    28    33    22    12    15]
+Q, P chi^2 grid using post
+P [0.05 0.15 0.25 0.35 0.45 0.55 0.65 0.75 0.85 0.95 1.05 1.15 1.25 1.35
+ 1.45 1.55 1.65 1.75 1.85 1.95 2.05 2.15 2.25 2.35 2.45]
+Q [0.025 0.075 0.125 0.175 0.225 0.275 0.325 0.375 0.425 0.475 0.525 0.575
+ 0.625 0.675 0.725 0.775 0.825 0.875 0.925 0.975 1.025 1.075 1.125 1.175
+ 1.225 1.275 1.325 1.375 1.425 1.475]
+  0%|          | 0/30 [00:00<?, ?it/s]  3%|▎         | 1/30 [42:08<20:22:00, 2528.28s/it]  7%|▋         | 2/30 [1:38:31<23:34:37, 3031.33s/it] 10%|█         | 3/30 [2:31:48<23:18:08, 3107.00s/it] 13%|█▎        | 4/30 [3:11:14<20:19:29, 2814.21s/it] 17%|█▋        | 5/30 [3:47:46<17:59:04, 2589.80s/it] 20%|██        | 6/30 [4:23:37<16:16:16, 2440.69s/it] 23%|██▎       | 7/30 [4:58:01<14:48:27, 2317.70s/it] 27%|██▋       | 8/30 [5:30:45<13:28:32, 2205.12s/it] 30%|███       | 9/30 [6:04:24<12:31:24, 2146.87s/it] 33%|███▎      | 10/30 [6:42:24<12:09:18, 2187.92s/it] 37%|███▋      | 11/30 [7:24:05<12:03:11, 2283.76s/it] 40%|████      | 12/30 [8:05:20<11:42:32, 2341.80s/it] 43%|████▎     | 13/30 [8:45:16<11:08:10, 2358.29s/it] 47%|████▋     | 14/30 [9:27:35<10:43:24, 2412.79s/it] 50%|█████     | 15/30 [10:10:14<10:14:14, 2456.95s/it] 53%|█████▎    | 16/30 [10:51:59<9:36:42, 2471.60s/it]  57%|█████▋    | 17/30 [11:33:50<8:58:02, 2483.28s/it] 60%|██████    | 18/30 [12:17:22<8:24:23, 2521.97s/it] 63%|██████▎   | 19/30 [13:01:50<7:50:25, 2565.94s/it] 67%|██████▋   | 20/30 [13:46:23<7:12:58, 2597.89s/it] 70%|███████   | 21/30 [14:32:27<6:37:11, 2647.89s/it] 73%|███████▎  | 22/30 [15:17:03<5:54:10, 2656.33s/it] 77%|███████▋  | 23/30 [16:02:06<5:11:32, 2670.30s/it] 80%|████████  | 24/30 [16:49:36<4:32:26, 2724.34s/it] 83%|████████▎ | 25/30 [17:37:33<3:50:49, 2769.96s/it] 87%|████████▋ | 26/30 [18:23:34<3:04:28, 2767.22s/it] 90%|█████████ | 27/30 [19:12:06<2:20:31, 2810.64s/it] 93%|█████████▎| 28/30 [19:56:42<1:32:21, 2770.53s/it] 97%|█████████▋| 29/30 [20:43:43<46:25, 2785.55s/it]  100%|██████████| 30/30 [21:26:31<00:00, 2720.25s/it]100%|██████████| 30/30 [21:26:31<00:00, 2573.05s/it]
+Simplex optimization ...
+Optimization terminated successfully.
+         Current function value: 27.281795
+         Iterations: 4
+         Function evaluations: 9
